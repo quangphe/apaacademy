@@ -1,0 +1,24 @@
+.achievements_apa_1_0_0 {
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__item {
+        border: 1px solid #ccc;
+        padding: 20px;
+        p {
+            text-align: center;
+        }
+    }
+    &__number {
+        color: #ffb408;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    &__text {
+        color: #050e7f;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
