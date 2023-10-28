@@ -1,0 +1,38 @@
+.feedback_apa_1_0_0__title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 0 20px 0;
+  font-weight: 700;
+  font-size: 32px;
+  color: #050e7f;
+}
+.feedback_apa_1_0_0__title span {
+  color: #ffb408;
+}
+.feedback_apa_1_0_0__item {
+  cursor: pointer;
+}
+.feedback_apa_1_0_0__item img {
+  border-radius: 15px 15px 0 0;
+}
+.feedback_apa_1_0_0__item:hover .teacher_apa_1_0_0__info {
+  background-color: #ffb408;
+  transition: 0.2s linear;
+}
+
+.controls {
+  display: none;
+}
+
+.slide_dot {
+  padding-left: 0;
+}
+.slide_dot li {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.slide_dot .tns-nav-active {
+  border: 1px solid #050e7f !important;
+  background: #050e7f !important;
+}/*# sourceMappingURL=feedback_apa_1_0_0.min.css.map */

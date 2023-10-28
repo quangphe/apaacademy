@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teacher_apa_1_0_0</title>
+    <link rel="stylesheet" href="sass/teacher_apa_1_0_0.min.css">
+    <link rel="stylesheet" href="https://huudinh.github.io/assets/sass/lib.min.css">
+    <script src="https://huudinh.github.io/assets/js/lib.min.js"></script>
+    <script src="https://huudinh.github.io/assets/js/module.min.js"></script>
+</head>
+
+<body>
+    <section class="teacher_apa_1_0_0">
+        <div class="container">
+            <div class="teacher_apa_1_0_0__title">
+                Đội ngũ giảng viên
+            </div>
+            <div class="teacher_apa_1_0_0__box">
+                <div class="slide_step" id="slide_step">
+                    <div class="teacher_apa_1_0_0__item">
+                        <div>
+                            <img src="images/teacher1.png" alt="" style="width:100%">
+                        </div>
+                        <p class="teacher_apa_1_0_0__info">
+                            Giảng viên <br> <span>ThS.KTS NGUYỄN VĂN THÀNH</span>
+                        </p>
+                        <div class="teacher_apa_1_0_0__line"></div>
+                    </div>
+                    <div class="teacher_apa_1_0_0__item">
+                        <div>
+                            <img src="images/teacher1.png" alt="" style="width:100%">
+                        </div>
+                        <p class="teacher_apa_1_0_0__info">
+                            Giảng viên <br> <span>ThS.KTS NGUYỄN VĂN ĐOÀN</span>
+                        </p>
+                        <div class="teacher_apa_1_0_0__line"></div>
+                    </div>
+                    <div class="teacher_apa_1_0_0__item">
+                        <div>
+                            <img src="images/teacher1.png" alt="" style="width:100%">
+                        </div>
+                        <p class="teacher_apa_1_0_0__info">
+                            Giảng viên <br> <span>ThS.KTS NGUYỄN VĂN THÀNH</span>
+                        </p>
+                        <div class="teacher_apa_1_0_0__line"></div>
+                    </div>
+                    <div class="teacher_apa_1_0_0__item">
+                        <div>
+                            <img src="images/teacher1.png" alt="" style="width:100%">
+                        </div>
+                        <p class="teacher_apa_1_0_0__info">
+                            Giảng viên <br> <span>ThS.KTS NGUYỄN VĂN ĐOÀN</span>
+                        </p>
+                        <div class="teacher_apa_1_0_0__line"></div>
+                    </div>
+                    <div class="teacher_apa_1_0_0__item">
+                        <div>
+                            <img src="images/teacher1.png" alt="" style="width:100%">
+                        </div>
+                        <p class="teacher_apa_1_0_0__info">
+                            Giảng viên <br> <span>ThS.KTS NGUYỄN VĂN THÀNH</span>
+                        </p>
+                        <div class="teacher_apa_1_0_0__line"></div>
+                    </div>
+                </div>
+                <ul class="controls" id="slide_stepControl">
+                    <li class="prev">
+                        <span aria-label="Previous">‹</span>
+                    </li>
+                    <li class="next">
+                        <span aria-label="Next">›</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="slide_stepNav">
+                <ul class="slide_dot" id="slide_stepNav">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="https://huudinh.github.io/assets/js/tiny-slider.min.js"></script>
+<script>
+    var slide_step = tns({
+        container: '#slide_step',
+        items: 3,
+        controlsContainer: '#slide_stepControl',
+        navContainer: '#slide_stepNav',
+        navAsThumbnails: true,
+        autoplay: false,
+        autoplayTimeout: 1000,
+        autoplayButton: '#customize-toggle',
+        gutter: 30,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            600: {
+                items: 2,
+            },
+            800: {
+                items: 3,
+            }
+        },
+    });
+</script>
+
+</html>

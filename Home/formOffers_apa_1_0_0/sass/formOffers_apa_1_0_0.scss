@@ -1,0 +1,128 @@
+.formOffers_apa_1_0_0 {
+    background-color: #fff7e6;
+    padding: 30px 0;
+    &__box {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    &__boxLeft {
+        display: flex;
+        gap: 15px;
+        width: 60%;
+        background-color: #032f97;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 10px 5px #999999;
+    }
+    &__title {
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 0;
+        font-weight: 600;
+        font-size: 22px;
+        span {
+            color: #ffb408;
+        }
+    }
+    &__text {
+        color: #fff;
+        font-size: 16px;
+    }
+    &__form {
+        input {
+            padding: 10px;
+            color: #032f97;
+            border-radius: 8px;
+            border: 1px solid #032f97;
+            margin-bottom: 10px;
+            font-size: 16px;
+            width: 100%;
+        }
+    }
+    &__btn {
+        display: block;
+        margin: 10px auto 0;
+        background-color: #fff;
+        color: #032f97;
+        border-radius: 8px;
+        border: 1px solid #032f97;
+        padding: 4px 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 15px;
+        cursor: pointer;
+        &:hover {
+            background-color: #ffb408;
+            color: #fff;
+            transition: all .2s linear;
+        }
+    }
+    &__boxRight {
+        flex: 1;
+        background: url(../images/bg-time.png) center 0 no-repeat;
+        background-size: 440px;
+        border-radius: 10px;
+        padding: 50px 0;
+        box-shadow: 0px 2px 10px 5px #999999;
+    }
+    &__titleTime {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    &__time {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    &__itemTime {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        width: 20%;
+        p {
+            margin-bottom: 0;
+        }
+    }
+    &__numbTime {
+        text-align: center;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    &__textTime {
+        background-color: #ffb408;
+        text-align: center;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    @media (max-width: 990px) {
+        &__box {
+            flex-direction: column-reverse;
+        }
+        &__boxLeft {
+            width: 100%;
+        }
+        &__boxRight {
+            width: 100%;
+            background-size: 100%;
+        }
+    }
+    @media (max-width: 768px) {
+        &__boxLeft {
+            flex-direction: column;
+        }
+    }
+    @media (max-width: 280px) {
+        &__boxRight {
+            padding: 39px 0;
+        }
+        &__titleTime {
+            font-size: 17px;
+        }
+        &__numbTime {
+            font-size: 36px;
+        }
+    }
+}
