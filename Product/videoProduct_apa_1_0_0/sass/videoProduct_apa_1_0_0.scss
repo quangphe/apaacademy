@@ -1,0 +1,12 @@
+.videoProduct_apa_1_0_0 {
+    background-color: #ffb408;
+    &__video {
+        iframe {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            height: 40vh;
+            padding: 0 170px;
+        }
+    }
+}
