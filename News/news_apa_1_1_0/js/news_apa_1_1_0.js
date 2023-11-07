@@ -17,13 +17,13 @@ function displayItems() {
     var endIndex = startIndex + itemsPerPage;
 
     // Ẩn tất cả các mục
-    items.forEach(function(item) {
+    items.forEach(function (item) {
         item.style.display = 'none';
     });
 
     // Hiển thị các mục trong khoảng từ startIndex đến endIndex
     var itemsToShow = items.slice(startIndex, endIndex);
-    itemsToShow.forEach(function(item) {
+    itemsToShow.forEach(function (item) {
         item.style.display = 'block';
     });
 }
@@ -39,7 +39,7 @@ pagination.classList.add('news_apa_1_1_0__pagination');
 for (var i = 1; i <= totalPages; i++) {
     var pageButton = document.createElement('button');
     pageButton.textContent = i;
-    pageButton.addEventListener('click', function() {
+    pageButton.addEventListener('click', function () {
         currentPage = parseInt(this.textContent);
         displayItems();
     });
@@ -47,4 +47,4 @@ for (var i = 1; i <= totalPages; i++) {
 }
 
 // Thêm nút phân trang vào phần tử cha
-document.querySelector('.news_apa_1_1_0__box').appendChild(pagination);
+document.querySelector('.news_apa_1_1_0__pagi').appendChild(pagination);
