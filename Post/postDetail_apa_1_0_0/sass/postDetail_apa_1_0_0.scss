@@ -1,0 +1,42 @@
+.postDetail_apa_1_0_0 {
+    &__banner {
+        background: url(../images/img2.jpg) center 0 no-repeat;
+        background-size: 1920px;
+        height: 200px;
+        position: relative;
+    }
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.4;
+    }
+    &__breadcrumb {
+        position: relative;
+        margin: 0;
+        padding: 156px 0 0 0;
+        color: #fff;
+        font-size: 18px;
+    }
+    &__title {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    p {
+        text-align: justify;
+    }
+    @media (max-width: 480px) {
+        &__breadcrumb {
+            padding: 136px 0 0 0;
+            font-size: 16px;
+        }
+    }
+    @media (max-width: 280px) {
+        &__breadcrumb {
+            padding: 112px 0 0 0;
+        }
+    }
+}

@@ -17,14 +17,14 @@
     &__title {
         position: relative;
         margin: 0;
-        padding: 114px 0 0 164px;
+        padding: 114px 0 0 0;
         color: #fff;
+        font-size: 28px;
     }
     &__line {
         position: relative;
         border: 2px solid #ffb408;
-        width: 112px;
-        left: 166px;
+        width: 100px;
         top: 6px;
     }
     &__box {
