@@ -1,1 +1,22 @@
-.achievements_apa_1_0_0__box{display:flex;align-items:center;justify-content:center}.achievements_apa_1_0_0__item{border:1px solid #ccc;padding:20px}.achievements_apa_1_0_0__item p{text-align:center}.achievements_apa_1_0_0__number{color:#ffb408;font-weight:700;font-size:28px}.achievements_apa_1_0_0__text{color:#050e7f;font-weight:600;font-size:16px}/*# sourceMappingURL=achievements_apa_1_0_0.min.css.map */
+.achievements_apa_1_0_0__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.achievements_apa_1_0_0__item {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.achievements_apa_1_0_0__item p {
+  text-align: center;
+}
+.achievements_apa_1_0_0__number {
+  color: #ffb408;
+  font-weight: 700;
+  font-size: 28px;
+}
+.achievements_apa_1_0_0__text {
+  color: #050e7f;
+  font-weight: 600;
+  font-size: 16px;
+}/*# sourceMappingURL=achievements_apa_1_0_0.min.css.map */
