@@ -1,0 +1,166 @@
+.popup_apa_1_0_0 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    padding: 0 25px;
+    background: rgba(0,0,0,.7);
+    z-index: 10;
+    animation: opac .4s;
+    &__box {
+        position: relative;
+        margin-top: 8vh;
+        background: #fff;
+        max-width: 850px;
+        width: 100%;
+        height: -moz-fit-content;
+        height: fit-content;
+        border-radius: 5px;
+        animation: openModalAnimation .4s;
+        border-radius: 30px;
+    }
+    &__close {
+        position: absolute;
+        right: 22px;
+        top: 10px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 30px;
+        background: rgba(0,0,0,.4);
+        padding: 0px 15px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    &__pic {
+        width: 850px;
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 30px 30px 0 0;
+        }
+    }
+    &__title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 35px;
+        margin: 20px 0px 0px 0px;
+    }
+    &__subTit {
+        text-align: center;
+        font-size: 20px;
+    }
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 35px 50px;
+        margin-top: 30px;
+        padding: 0 70px;
+    }
+    &__itemForm {
+        width: calc(50% - 25px);
+        label {
+            font-weight: 600;
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+        input {
+            width: 100%;
+            padding: 8px 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+    }
+    &__btn {
+        background: #fcc633;
+        text-align: center;
+        color: #fff;
+        font-weight: 600;
+        font-size: 16px;
+        width: 160px;
+        padding: 10px;
+        border-radius: 10px;
+        display: block;
+        margin: 50px auto;
+        cursor: pointer ;
+        transition: all .3s linear;
+        &:hover {
+            background: #ffba00;
+            transition: all .3s linear;
+        }
+    }
+    @media (max-width: 1280px) {
+        &__box {
+            margin-top: 5vh;
+        }
+        &__form {
+            gap: 26px 50px;
+        }
+        &__btn {
+            margin: 24px auto;
+        }
+    }
+    @media (max-width: 1024px) {
+        &__box {
+            max-width: 530px;
+        }
+        &__close {
+            right: 14px;
+            top: 8px;
+            font-size: 20px;
+            padding: 0 10px;
+        }
+        &__pic {
+            width: 530px;
+        }
+        &__title {
+            font-size: 28px;
+        }
+        &__subTit {
+            font-size: 18px;
+        }
+        &__form {
+            gap: 20px 50px;
+            margin-top: 10px;
+            padding: 0 40px;
+        }
+        &__itemForm {
+            label {
+                font-weight: 500;
+                font-size: 16px;
+            }
+            input {
+                padding: 5px 10px;
+            }
+        }
+    }
+    @media (max-width: 430px) {
+        &__pic {
+            width: 100%;
+        }
+        &__title {
+            font-size: 25px;
+        }
+        &__subTit {
+            font-size: 15px;
+            padding: 0 10px;
+        }
+        &__form {
+            gap: 12px 50px;
+            padding: 0 20px;
+        }
+        &__itemForm {
+            width: 100%;
+        }
+    }
+    @media (max-width: 360px) {
+        &__title {
+            font-size: 22px;
+        }
+    }
+}
